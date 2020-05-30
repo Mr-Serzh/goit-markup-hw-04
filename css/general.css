@@ -311,6 +311,19 @@ img {
   margin-right: 12px;
 }
 
+.botton.sign {
+  display: flex;
+}
+
+.botton .icon {
+  margin-left: 10px;
+  fill: #ffffff;
+}
+
+.botton:hover .icon {
+  fill: var(--accent-color);
+}
+
 .sign {
   font-weight: 900;
   padding: 10px 45px;
