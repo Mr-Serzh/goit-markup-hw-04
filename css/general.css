@@ -188,6 +188,7 @@ img {
 .header-contact .icon {
   fill: var(--primary-text-color);
   margin-right: 10px;
+  vertical-align: middle;
 }
 
 .header-contact {
@@ -202,7 +203,8 @@ img {
   color: var(--accent-color);
 }
 
-.header-contact .icon:hover {
+.header-contact:hover .icon,
+.header-contact:focus .icon {
   fill: var(--accent-color);
 }
 
