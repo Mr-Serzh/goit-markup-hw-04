@@ -176,7 +176,8 @@ img {
   padding-bottom: 32px;
 }
 
-.contact-list .icon {
+.header-contact .icon {
+  fill: var(--primary-text-color);
   margin-right: 10px;
 }
 
@@ -191,6 +192,11 @@ img {
 .header-contact:focus {
   color: var(--accent-color);
 }
+
+.header-contact .icon:hover {
+  fill: var(--accent-color);
+}
+
 /* end HEADER */
 
 /* FOOTER */
