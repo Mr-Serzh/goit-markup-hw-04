@@ -10,7 +10,6 @@
   margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
-  outline: 1px solid black;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url('../images/Header.jpg');
   background-color: rgba(47, 48, 58, 0.8);
   background-repeat: no-repeat;
@@ -20,7 +19,7 @@
 
 .hero-title {
   margin-top: 0;
-  margin-bottom: 46px;
+  margin-bottom: 30px;
   max-width: 646px;
   margin-left: auto;
   margin-right: auto;
@@ -58,16 +57,28 @@
   margin-bottom: 0;
 }
 
-.features-img {
+.features-icon {
   background-color: var(--secondary-bg-color);
+  height: 120px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.icon {
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+/* .features-img {
+  
   border-radius: 4px;
   overflow: hidden;
   height: 120px;
-}
+} */
 
-.features-img:hover {
+/* .features-img:hover {
   background-color: var(--accent-color);
-}
+} */
 
 .features-text {
   line-height: 1.7;
@@ -162,17 +173,21 @@
   /* outline: 2px solid tomato; */
 }
 
-.clients-logo {
+.clients-list .item {
   margin: 15px;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  /* outline: 2px solid teal; */
 }
 
-.clients .link:hover,
-.clients .link:focus {
-  background-color: var(--accent-color);
+.clients-list .item:hover,
+.clients-list .item:focus {
+  border-color: var(--accent-color);
 }
+
+.clients-list .icon:hover {
+  fill: blue;
+}
+
 /* end CLIENTS */
