@@ -90,25 +90,27 @@ img {
   justify-content: space-evenly;
 }
 
-.social-links .item {
+.social-links .link {
   width: 44px;
   height: 44px;
-  padding: 12px;
-  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-links .icon {
   fill: #afb1b8;
 }
 
-.social-links .icon:hover,
-.social-links .icon:focus {
-  fill: #ffffff;
+.social-links .link:hover,
+.social-links .link:focus {
+  background-color: var(--accent-color);
+  border-radius: 50%;
 }
 
-.social-links .item:hover,
-.social-links .item:focus {
-  background-color: var(--accent-color);
+.social-links .link:hover .icon,
+.social-links .link:focus .icon {
+  fill: #ffffff;
 }
 /* end MAIN */
 
@@ -273,8 +275,9 @@ img {
   margin-right: 10px;
 }
 
-.our .item {
+.our .link {
   background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
 }
 
 .our .icon {
@@ -282,7 +285,7 @@ img {
 }
 
 .exhortation-block {
-  width: calc((100% - 30px) / 12 * 6);
+  width: calc((100% - 30px) / 2);
 }
 
 .exhortation {
@@ -293,6 +296,10 @@ img {
   margin-bottom: 21px;
 }
 
+.footer-form {
+  /* display: flex; */
+}
+
 .input {
   background-color: #2f303a;
   color: var(--primary-white-color);
@@ -301,6 +308,7 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   padding-left: 12px;
+  margin-right: 12px;
 }
 
 .sign {
