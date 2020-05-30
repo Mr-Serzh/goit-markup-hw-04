@@ -97,6 +97,15 @@ img {
   border-radius: 50%;
 }
 
+.social-links .icon {
+  fill: #afb1b8;
+}
+
+.social-links .icon:hover,
+.social-links .icon:focus {
+  fill: #ffffff;
+}
+
 .social-links .item:hover,
 .social-links .item:focus {
   background-color: var(--accent-color);
