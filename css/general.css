@@ -313,6 +313,7 @@ img {
 
 .botton.sign {
   display: flex;
+  align-items: center;
 }
 
 .botton .icon {
